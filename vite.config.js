@@ -10,7 +10,8 @@ export default defineConfig({
         // searchForWorkspaceRoot(process.cwd()),
         ".git",
         ".env",
-        "flag.txt"
+        "flag.txt",
+        "/public/flag.txt"
       ]
     },
     headers: {
