@@ -58,7 +58,7 @@ function App() {
       <div className="header">
         <a href='#'>Wait tables</a>
         <a href='#'>Customer service</a>
-        <a href='/flag.txt'>Serve <s>files</s> food</a>
+        <a href='/secret_menu.txt'>Serve <s>files</s> food</a>
       </div>
       <div> 
         <h2>Welcome to Server school where we'll train you<br /> to become the best server</h2>
@@ -71,13 +71,12 @@ function App() {
   <img className="mySlides" src={kitchen} style={{height: "100%"}}/>
   <img className="mySlides" src={table} style={{height: "100%", display: "none"}}/>
   <img className="mySlides" src={food} style={{height: "100%", display: "none"}}/>
-  {/* <img className="mySlides" src="img_forest.jpg" style={{width: "100%"}}/> */}
 
 </div>
 
       <div className="footer">
-        <p>Made with vite 4.3.2 - Last updated 06/05/2023</p>
-        {/* <p>Last updated 06/05/2023</p> */}
+        <p>Made with VITE <br/>
+        Last updated 06/06/2023</p>
       </div>
 
     </>

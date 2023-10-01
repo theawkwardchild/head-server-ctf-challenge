@@ -1,0 +1,3 @@
+# Putting this in the robots.txt will make sure google doesn't index our developer notes
+User-agent: *
+Disallow: /devlog.html
